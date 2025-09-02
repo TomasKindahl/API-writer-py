@@ -39,8 +39,8 @@ CMD ["python", "apiwriter.py", "http://localhost:5010"]
 You can build it using the commands (for any
 <code><i><b>n</b></i></code>):
 
-```
+<pre>
 docker build -t apiwriter:v<i><b>n</b></i>
 docker run -d -p 5010:8001 apiwriter:v<i><b>n</b></i>
-```
+</pre>
 
